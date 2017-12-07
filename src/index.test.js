@@ -16,7 +16,7 @@ pluginTester({
     {
       title: 'href = variable',
       code: `
-      <a href={extarnalLink} target="_blank">akameco</a>
+      <a href={externalLink} target="_blank">akameco</a>
     `,
     },
     {

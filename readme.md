@@ -5,7 +5,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
-> for extarnal link
+> for external link
 
 ## Install
 
@@ -55,14 +55,14 @@ $ yarn add --dev babel-plugin-jsx-target-blank
 </a>
 ```
 
-### with extarnal link
+### with external link
 
 ```js
-<a href={extarnalLink} target="_blank">akameco</a>
+<a href={externalLink} target="_blank">akameco</a>
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
-<a href={extarnalLink} target="_blank" rel="noopener noreferrer">akameco</a>
+<a href={externalLink} target="_blank" rel="noopener noreferrer">akameco</a>
 ```
 
 ## Contributors

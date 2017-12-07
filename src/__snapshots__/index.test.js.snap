@@ -54,11 +54,11 @@ exports[`has secure rel 1`] = `
 
 exports[`href = variable 1`] = `
 "
-<a href={extarnalLink} target=\\"_blank\\">akameco</a>
+<a href={externalLink} target=\\"_blank\\">akameco</a>
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
-<a href={extarnalLink} target=\\"_blank\\" rel=\\"noopener noreferrer\\">akameco</a>;
+<a href={externalLink} target=\\"_blank\\" rel=\\"noopener noreferrer\\">akameco</a>;
 "
 `;
 
