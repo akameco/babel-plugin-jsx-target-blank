@@ -14,7 +14,7 @@
     "add-contributor": "all-contributors add",
     "precommit": "lint-staged",
     "build": "babel src -d lib --ignore *.test.js,__fixtures__",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "fmt": "prettier --write '**/*.{js,json}'",
     "flow": "flow",
     "lint": "eslint src",
