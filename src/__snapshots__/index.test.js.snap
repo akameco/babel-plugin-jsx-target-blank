@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default 1`] = `
+"
+<a href=\\"akameco.github.io\\" target=\\"_blank\\">akameco</a>
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+<a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">akameco</a>;
+"
+`;
+
+exports[`has no rel 1`] = `
+"
+<a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"\\">
+  akameco
+</a>
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+<a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\" noopener noreferrer\\">
+  akameco
+</a>;
+"
+`;
+
+exports[`has noopener only 1`] = `
+"
+<a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"noopener\\">
+  akameco
+</a>
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+<a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+  akameco
+</a>;
+"
+`;
+
+exports[`has secure rel 1`] = `
+"
+<a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+  akameco
+</a>
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+<a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+  akameco
+</a>;
+"
+`;
+
+exports[`href = variable 1`] = `
+"
+<a href={extarnalLink} target=\\"_blank\\">akameco</a>
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+<a href={extarnalLink} target=\\"_blank\\" rel=\\"noopener noreferrer\\">akameco</a>;
+"
+`;
+
+exports[`no-a-tag 1`] = `
+"
+<div id=\\"hoge\\">hello</div>
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+<div id=\\"hoge\\">hello</div>;
+"
+`;
+
+exports[`rel = variable 1`] = `
+"
+<a href=\\"akameco.github.io\\" target=\\"_blank\\" rel={val}>
+  akameco
+</a>
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+<a href=\\"akameco.github.io\\" target=\\"_blank\\" rel={val}>
+  akameco
+</a>;
+"
+`;
+
+exports[`with other rel 1`] = `
+"
+<a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"noopener prefetch\\">
+  akameco
+</a>
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+<a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"noopener prefetch noreferrer\\">
+  akameco
+</a>;
+"
+`;
