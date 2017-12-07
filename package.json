@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-jsx-target-blank",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "for extarnal link",
   "license": "MIT",
   "repository": "akameco/babel-plugin-jsx-target-blank",
