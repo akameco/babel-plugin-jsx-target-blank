@@ -9,6 +9,14 @@
 
 ## Install
 
+npm:
+
+```
+$ npm install --save-dev babel-plugin-jsx-target-blank
+```
+
+yarn:
+
 ```
 $ yarn add --dev babel-plugin-jsx-target-blank
 ```
@@ -24,8 +32,6 @@ $ yarn add --dev babel-plugin-jsx-target-blank
 ```
 
 ## Examples
-
-### when no rel
 
 ```js
 <a href="akameco.github.io" target="_blank">akameco</a>
