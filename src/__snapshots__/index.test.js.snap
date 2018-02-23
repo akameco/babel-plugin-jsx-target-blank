@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`default 1`] = `
+exports[`default default: default 1`] = `
 "
 <a href=\\"akameco.github.io\\" target=\\"_blank\\">akameco</a>
 
@@ -10,7 +10,7 @@ exports[`default 1`] = `
 "
 `;
 
-exports[`has no rel 1`] = `
+exports[`default has no rel: has no rel 1`] = `
 "
 <a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"\\">
   akameco
@@ -24,7 +24,7 @@ exports[`has no rel 1`] = `
 "
 `;
 
-exports[`has noopener only 1`] = `
+exports[`default has noopener only: has noopener only 1`] = `
 "
 <a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"noopener\\">
   akameco
@@ -38,7 +38,7 @@ exports[`has noopener only 1`] = `
 "
 `;
 
-exports[`has secure rel 1`] = `
+exports[`default has secure rel: has secure rel 1`] = `
 "
 <a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
   akameco
@@ -52,7 +52,7 @@ exports[`has secure rel 1`] = `
 "
 `;
 
-exports[`href = variable 1`] = `
+exports[`default href = variable: href = variable 1`] = `
 "
 <a href={externalLink} target=\\"_blank\\">akameco</a>
 
@@ -62,7 +62,7 @@ exports[`href = variable 1`] = `
 "
 `;
 
-exports[`no-a-tag 1`] = `
+exports[`default no-a-tag: no-a-tag 1`] = `
 "
 <div id=\\"hoge\\">hello</div>
 
@@ -72,7 +72,7 @@ exports[`no-a-tag 1`] = `
 "
 `;
 
-exports[`rel = variable 1`] = `
+exports[`default rel = variable: rel = variable 1`] = `
 "
 <a href=\\"akameco.github.io\\" target=\\"_blank\\" rel={val}>
   akameco
@@ -86,7 +86,7 @@ exports[`rel = variable 1`] = `
 "
 `;
 
-exports[`with other rel 1`] = `
+exports[`default with other rel: with other rel 1`] = `
 "
 <a href=\\"akameco.github.io\\" target=\\"_blank\\" rel=\\"noopener prefetch\\">
   akameco
