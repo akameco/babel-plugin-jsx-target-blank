@@ -40,7 +40,7 @@ export default ({ types: t }) => {
         const rels = new Set(relNode.value.value.toLowerCase().split(' '))
         rels.add('noopener')
         rels.add('noreferrer')
-        relNode.value.value = Array.from(rels).join(' ')
+        relNode.value.value = [...rels].join(' ')
       },
     },
   }

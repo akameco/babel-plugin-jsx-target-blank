@@ -9,12 +9,10 @@
     "node": ">=6"
   },
   "main": "lib/index.js",
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "scripts": {
     "add-contributor": "all-contributors add",
-    "precommit": "lint-staged",
+    "precommit": "yarn validate && lint-staged",
     "build": "babel src -d lib --ignore *.test.js,__fixtures__",
     "prepare": "npm run build",
     "fmt": "prettier --write '**/*.{js,json}'",
@@ -27,21 +25,9 @@
     "validate": "npm run lint && npm run flow && npm run test"
   },
   "lint-staged": {
-    "*.js": [
-      "fmt",
-      "validate",
-      "git add"
-    ],
-    "*.json": [
-      "fmt",
-      "git add"
-    ]
+    "*.{json,js}": ["prettier --write", "git add"]
   },
-  "keywords": [
-    "babel",
-    "babel-plugin",
-    "ast"
-  ],
+  "keywords": ["babel", "babel-plugin", "ast"],
   "devDependencies": {
     "all-contributors-cli": "^4.11.0",
     "babel-cli": "^6.26.0",
